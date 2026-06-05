@@ -17,7 +17,7 @@ TOTAL_ACTIVATIONS = CORTICAL_VERTICES + SUBCORTICAL_VOXELS
 
 LR_HEMISPHERE_VERTICES = 10242 # the amount of vertices in both the left and right hemispheres of the cortex
 TEST_TIMESTAMPS = 90 # length of the fMRI recording. used for testing.
-SIGMA = 1.0
+SIGMA = 1.5
 
 LH_YEO7_2011_NETWORK = "atlases/fsaverage_parcel_outline/lh.Yeo2011_7Networks_N1000.annot"
 RH_YEO7_2011_NETWORK = "atlases/fsaverage_parcel_outline/rh.Yeo2011_7Networks_N1000.annot"
